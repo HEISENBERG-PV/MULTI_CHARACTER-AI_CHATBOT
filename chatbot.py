@@ -10,10 +10,14 @@ model = init_chat_model(
 print("----------AI CHATBOT----------")
 print("----------PRESS 'e' TO EXIT----------")
 
+
+msg = []
 while True:
     promt = input("You : ")
+    msg.append(promt)
     if(promt == 'e'):
         break
-    res = model.invoke(promt)
-    
+    res = model.invoke(msg)
+    msg.append(res)
+     
     print("AI : "+ res.content)
