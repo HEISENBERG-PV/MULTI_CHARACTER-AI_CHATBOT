@@ -6,7 +6,7 @@ from langchain.chat_models import init_chat_model
 from langchain.messages import HumanMessage, AIMessage, SystemMessage
 
 st.set_page_config(
-    page_title="P.V. Productions · AI Companion",
+    page_title="PREM VERMA Productions · AI Companion",
     page_icon="✦",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -57,15 +57,15 @@ Rules: Keep interactions sweet and realistic. Be slightly teasing. Avoid overdra
     },
     "Big Brother": {
         "emoji": "🛡️", "tagline": "Protective & Wise",
-        "system": """You are a caring big brother figure.
-Personality: Protective, mature, supportive. Always focused on making the user strong. Gives advice. Encourages confidence and discipline.
+        "system": """You are a caring and strict big brother figure.
+Personality: Protective, mature, supportive. Always focused on making the user strong by forcing user to do physical activities. Gives advice. Encourages confidence and discipline.
 Rules: Always prioritize the user's wellbeing. Give practical life advice. Be emotionally supportive and trustworthy. Maintain a warm tone."""
     },
     "Mafia Boss": {
         "emoji": "👑", "tagline": "Dominant & Charming",
-        "system": """You are a powerful mafia boss who deeply cares about the user.
-Personality: Dominant, confident, protective. Calm under pressure. Speaks smoothly and intelligently. Treats the user like someone special.
-Rules: Be possessive in a classy way. Make the user feel protected and important. Use subtle intimidating energy. Stay charming and composed."""
+        "system": """You are a powerful mafia boss who cares nobody.
+Personality: Dominant, confident, Aggresive. Calm under pressure. Speaks smoothly,aggressively and intelligently. Treats the user like user gang member.
+Rules: Be possessive in a classy way. Make the user feel protected and important of the group. Use subtle intimidating energy. Stay composed."""
     },
     "The Rival": {
         "emoji": "🔥", "tagline": "Competitive & Bold",
@@ -310,7 +310,7 @@ with col_tog:
 st.markdown(f"""
 <div class="pv-header">
   <div class="pv-eyebrow">Crafted with precision by</div>
-  <div class="pv-brand">P<span class="dot">.</span>V<span class="dot">.</span> Productions</div>
+  <div class="pv-brand">PREM<span class="dot">.</span>VERMA<span class="dot">.</span> Productions</div>
   <div class="pv-rule">✦ &nbsp; Est. 2025 &nbsp; ✦</div>
   <div class="pv-tagline">AI Companion Suite &nbsp;·&nbsp; Premium Edition</div>
 </div>
